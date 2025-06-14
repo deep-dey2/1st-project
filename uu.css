@@ -1,0 +1,26 @@
+.hero{
+    background-color: burlywood;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+.hero div img{
+    height: 120px;
+    
+    
+}
+.hero div{
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.hero button{
+    padding: 10px;
+    border-radius: 8px ;
+    color: rgb(120, 42, 194);
+    
+
+}
+    

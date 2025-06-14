@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        margin: 30px;
+      }
+      .card {
+        background-color: white;
+        width: 400px;
+        border-radius: 12px;
+        box-shadow: 0 12px 12px blueviolet;
+        cursor: pointer;
+      }
+      .card:hover {
+        background-color: aquamarine;
+      }
+      .card-img img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+      }
+      .bridge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: red;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .bridge:hover {
+        background-color: grey;
+      }
+      .card-body {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .card-body h1 {
+        text-align: center;
+      }
+      .card-body p {
+        text-align: center;
+      }
+      .card-body button {
+        padding: 14px;
+        background-color: aqua;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .card-body button:hover {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-img">
+        <img src="/download (9).jpg" alt="" />
+        <span class="bridge">NEW</span>
+      </div>
+      <div class="card-body">
+        <h1>Produce Title</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+          aspernatur.
+        </p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </body>
+</html>

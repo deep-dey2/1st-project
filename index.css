@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+background-image: url(/download\ \(2\).jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+nav ul{
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 40px;
+}
+.hero{
+    
+    display: flex;
+    gap: 300px;
+    padding: 20px;
+    justify-content: center;
+
+}
+.hero div h1{
+    font-size: 40px;
+    margin: 40px;
+}
+.hero div p{
+    font-size: 40px;
+    margin: 40px;
+}
+.hero div button{
+    font-size: 20px;
+    margin: 40px;
+    padding: 20px;
+}
+.hero div img{
+    height: 200px;
+    weight: 200;
+    margin: 40px;
+    border-radius: 20px;
+    
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 12px 12px blueviolet;
+    transition: translate 2s;
+}
+body:hover{
+    transform: translateY(20px);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    box-shadow: 0 12px 12px greenyellow;
+    padding: 6px;
+    transition: transform 2s;
+}
+.header h1:hover{
+    transform: translateY(50px);
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0 12px 12px goldenrod;
+    padding: 4px;
+}
+nav a:hover{
+    background-color: gray;
+}
+
+.hero{
+    display: flex;
+    padding: 60px;
+    margin: 30px;
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero p{
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.hero button{
+    padding: 10px 14px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 12px 12px blue;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.hero button:hover{
+    background-color: bisque;
+    transform: translateX(40px);
+}
+div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 12px 12px brown;
+    transition: transform 2s;
+    cursor: pointer;
+}
+div img:hover{
+    transform: translateX(50px);
+}

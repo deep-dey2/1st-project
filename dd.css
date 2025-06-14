@@ -1,0 +1,28 @@
+.naver{
+    background-color: rgb(174, 141, 206);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    
+    
+    
+}
+
+
+
+.naver ul{
+    display: flex;
+    gap: 20px
+    
+}
+.naver ul li{
+    list-style: none;
+    justify-content: center;
+    font-size: 30px;
+}
+.naver div button{
+    padding: 20px;
+    border-radius: 10px;
+}

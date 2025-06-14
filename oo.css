@@ -1,0 +1,22 @@
+.hero{
+    background-image: url(/download\ \(5\).jpg);
+    background-repeat: repeat ;
+    color: white;
+    padding: 40PX;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    
+    
+
+}
+.hero-1{
+    height: 300PX;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    
+    
+    
+}

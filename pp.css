@@ -1,0 +1,14 @@
+.hero{
+background-image: url(/pexels-photo-1671325.jpeg);
+color: white;
+padding: 40px;
+background-size: cover;
+background-position: center;
+text-align: center;
+height: 300px;
+}
+.hero-1{
+    height: 300px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px blue
+}

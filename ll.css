@@ -1,0 +1,51 @@
+body{
+    background-color: #fceff1;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+header{
+    background-color: #d32f2f;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+section{
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.btn{
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px;
+}
+footer{
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+.coca-cola-section{
+    background-color: #fff0fo;
+    padding: 40px 20px;
+}
+.coke-3d{
+    width: 200px;
+    transition: transform 6s;
+    transform-style: preserve-3d;
+}
+.coke-3d:hover{
+    transform: rotateY(360deg);
+}

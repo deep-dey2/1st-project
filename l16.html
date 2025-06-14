@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: aqua;
+            font-family: sans-serif;
+        }
+        nav ul{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li{
+            padding: 20px;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero h1{
+            margin: 100px;
+        }
+
+        .card{
+            display: flex;
+            background-color: aqua;
+            margin: 10px;
+            position: absolute;
+            left: 40px;
+            top: 300px;
+        }
+        .card img{
+            margin: 10px;
+            width: 150px;
+            border-radius: 10px;
+
+        }
+        .card p{
+            display: flex;
+            align-items: center;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Content</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>About Me</h1>
+       <div class="card-content" style="display: flex;">
+         <div class="card">
+            <img src="/download (1).jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repellat possimus nisi, unde eius maxime molestias aperiam amet tempore accusamus provident expedita fugit, in omnis. Modi sed optio dignissimos recusandae!</p>
+            
+        </div>
+        <div class="card">
+            <img src="/download (1).jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repellat possimus nisi, unde eius maxime molestias aperiam amet tempore accusamus provident expedita fugit, in omnis. Modi sed optio dignissimos recusandae!</p>
+            
+        </div>
+        <div class="card">
+            <img src="/download (1).jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repellat possimus nisi, unde eius maxime molestias aperiam amet tempore accusamus provident expedita fugit, in omnis. Modi sed optio dignissimos recusandae!</p>
+            
+        </div>
+
+       </div>
+    </section>
+
+</body>
+</html>

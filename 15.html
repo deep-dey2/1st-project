@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px solid blue;
+            margin: 80px;
+            border-collapse: collapse;
+            box-shadow: 0 12px 12px blue;
+        }
+        caption{
+            box-shadow: 0 12px 12px blueviolet ;
+            padding: 20px;
+        }
+        th,td{
+            border: 3px solid blue;
+            padding: 20px;
+            cursor: pointer;
+        }
+        th,td:hover{
+            background-color: aqua;
+            color: blanchedalmond;
+        }
+        th{
+            background-color: darkcyan;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: blueviolet;
+        }
+        tr:nth-child(odd){
+            background-color: brown;
+        }
+        td{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>STUDENT DETAILS</caption>
+        <tr>
+            <th>id</th>
+            <th>gpa</th>
+            <th>subject</th>
+            <th>roll</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>4.89</td>
+            <td>math</td>
+            <td>115258</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>5.00</td>
+            <td>phyics</td>
+            <td>676587</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>4.69</td>
+            <td>biology</td>
+            <td>6666666</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>5.00</td>
+            <td>bangla</td>
+            <td>676586</td>
+        </tr>
+    </table>
+</body>
+</html>
